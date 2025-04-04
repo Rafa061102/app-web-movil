@@ -386,3 +386,22 @@
   stroke: #FFFFFF;
 }
 
+/*Tabla modificada*/
+
+.codigos-registrados {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #dbdbdb; /* Fondo de la tabla */
+}
+
+/* Estilo de las celdas de la tabla */
+.codigos-registrados th, .codigos-registrados td {
+  border-left: none; /* Elimina el borde izquierdo */
+  border-right: none; /* Elimina el borde derecho */
+  border-top: none; /* Elimina el borde superior */
+  border-bottom: 1px solid #b8b8b8; /* Solo muestra el borde inferior */
+  padding: 8px;
+  text-align: left;
+}
+
+
